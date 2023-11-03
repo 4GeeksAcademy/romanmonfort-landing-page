@@ -13,9 +13,9 @@ const Navbar = () => {
       </ul>
       <form className="d-flex">  
           <a className="nav-link active me-3" aria-current="page" href="#">Home</a> 
-          <a className="nav-link me-3 text-secondary" href="#">Link</a>
-          <a className="nav-link me-3 text-secondary" href="#">Link</a>
-          <a className="nav-link me-3 text-secondary" href="#">Link</a>    
+          <a className="nav-link me-3 text-secondary" href="#">About</a>
+          <a className="nav-link me-3 text-secondary" href="#">services</a>
+          <a className="nav-link me-3 text-secondary" href="#">Contact</a>    
       </form>
     </div>
   </div>
