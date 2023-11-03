@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Card = () => {
+const Card = (props) => {
   return (
     <div>
 <div className="card d-flex  justify-content-center align-items-center">
@@ -9,9 +9,9 @@ const Card = () => {
     className="card-img-top" alt="..."
   />
   <div className="card-body text-center">
-    <h5 className="card-title">Card title</h5>
+    <h5 className="card-title">{props.title}</h5>
     <p className="card-text">
-      This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+      {props.des}
     </p>
   </div>
   <div className="card-footer text-center">
